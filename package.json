@@ -1,0 +1,33 @@
+{
+  "name": "rufio-filter-browserify",
+  "version": "1.0.0",
+  "description": "A rufio filter for browserify",
+  "main": "index.js",
+  "scripts": {
+    "test": "happiness && mocha"
+  },
+  "keywords": [
+    "rufio",
+    "browserify",
+    "filter",
+    "stream"
+  ],
+  "author": "Wes Todd",
+  "license": "ISC",
+  "devDependencies": {
+    "happiness": "^5.5.0",
+    "mocha": "^2.3.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wesleytodd/rufio-filter-browserify.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wesleytodd/rufio-filter-browserify/issues"
+  },
+  "homepage": "https://github.com/wesleytodd/rufio-filter-browserify",
+  "dependencies": {
+    "browserify": "^13.0.0",
+    "through2": "^2.0.1"
+  }
+}
